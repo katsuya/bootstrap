@@ -33,6 +33,8 @@
     this.sorter = this.options.sorter || this.sorter
     this.highlighter = this.options.highlighter || this.highlighter
     this.updater = this.options.updater || this.updater
+    this.keyup = this.options.keyup || this.keyup
+    this.keypress = this.options.keypress || this.keypress
     this.$menu = $(this.options.menu).appendTo('body')
     this.source = this.options.source
     this.shown = false
